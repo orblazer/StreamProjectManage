@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 600;
+    src: url(./assets/fonts/roboto/Roboto-Bold.ttf);
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 0;
+    color: #0f0f0f;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 2px;
+}
+
+hr {
+    margin: 10px 0;
+    border-color: #181818;
+}
+
+
+/**
+ * Forms
+ */
+
+.form__fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.form__fieldset:last-child {
+    margin-bottom: 0;
+}
+
+.form__fieldset__legend {
+    width: 100%;
+    border-bottom: 2px solid #181818;
+    background-color: #dee5ec;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 5px;
+    margin-bottom: 10px
+}
+
+.form__field {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form__field__label {
+    width: 18%;
+    text-align: center;
+    vertical-align: center;
+    text-transform: capitalize;
+}
+
+.form__field__input {
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid #aaaaaa;
+    padding: 5px;
+}
+
+.form__field__input:hover,
+.form__field__input:focus {
+    border-bottom-color: #0080e8 !important;
+}
+
+.form__field__button {
+    text-align: center;
+    text-transform: uppercase;
+    width: 14%;
+    border: 1px solid #0080e8;
+    background-color: #0080e8;
+    color: #f0f0f0;
+    padding: 5px;
+}
+
+
+/**
+ * Components
+ */
+
+.components__label {
+    margin-bottom: 0;
+}
+
+.components__preview {
+    width: 100%;
+    min-height: 30px;
+    border: none;
+    background-color: #fff;
+}
+
+
+/**
+ * Night mode
+ */
+
+.night_mode {
+    background-color: #272727;
+    color: #f0f0f0;
+}
+
+.night_mode .form__fieldset__legend {
+    background-color: #1d232b;
+    border-bottom-color: #f0f0f0;
+}
+
+.night_mode hr {
+    border-color: #f0f0f0;
+}
+
+.night_mode .form__field__input {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    border-bottom-color: #afafaf;
+}
+
+.night_mode .components__preview {
+    background-color: #1a1a1a;
+}

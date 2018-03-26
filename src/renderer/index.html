@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Stream Project Manage (v0.1.0)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link type="text/css" href="style.css" rel="stylesheet" media="screen">
+  <script src="index.js"></script>
+</head>
+<body class="night_mode">
+  <div class="container">
+    <fieldset class="form__fieldset">
+      <legend class="form__fieldset__legend">Panel</legend>
+
+      <div class="form__field">
+        <label class="form__field__label" for="panel-url">Panel URL</label>
+        <input class="form__field__input" id="panel-url" type="text" readonly>
+        <button class="form__field__button" onclick="copyClipboard(event, 'panel-url')">Copy</button>
+      </div>
+    </fieldset>
+
+    <fieldset class="form__fieldset">
+      <legend class="form__fieldset__legend">Components</legend>
+
+      <div class="form__field">
+        <label class="form__field__label" for="project_name-url">Project name url</label>
+        <input class="form__field__input" id="project_name-url" type="text" readonly>
+        <button class="form__field__button" onclick="copyClipboard(event, 'project_name-url')">Copy</button>
+      </div>
+      <p class="components__label">Preview :</p>
+      <iframe class="components__preview" id="project_name-preview" height="30px"></iframe>
+
+      <hr>
+
+      <div class="form__field">
+        <label class="form__field__label" for="current_task-url">current task url</label>
+        <input class="form__field__input" id="current_task-url" type="text" readonly>
+        <button class="form__field__button" onclick="copyClipboard(event, 'current_task-url')">Copy</button>
+      </div>
+      <p class="components__label">Preview :</p>
+      <iframe class="components__preview" id="current_task-preview" height="30px"></iframe>
+
+      <hr>
+
+      <div class="form__field">
+        <label class="form__field__label" for="tasks-url">tasks url</label>
+        <input class="form__field__input" id="tasks-url" type="text" readonly>
+        <button class="form__field__button" onclick="copyClipboard(event, 'tasks-url')">Copy</button>
+      </div>
+      <p class="components__label">Preview :</p>
+      <iframe class="components__preview" id="tasks-preview" height="120px"></iframe>
+    </fieldset>
+  </div>
+</body>
+</html>

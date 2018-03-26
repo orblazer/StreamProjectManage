@@ -1,0 +1,6 @@
+# IDE ignore
+.vscode/
+.idea/
+
+# Project ignore
+node_modules/

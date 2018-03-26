@@ -1,0 +1,18 @@
+### V0.1.0 (xx/xx/2018)
+  Software :
+    ☐ Write data in files (project name, current task and tasks)
+    Setings options :
+      ☐ Configure the port of the local web server
+      ☐ Configure the folder for write files
+      ☐ Configure the format of outputs text
+      ☐ Configure the limit of plannified tasks
+    ☐ Distribute URL for each files (+ progress bar)
+    ☐ Distribute panel on local web server
+  Panel :
+    ☐ Configure the format of outputs text (same as settings options)
+    ☐ Configure thelimit of plannified tasks (same as settings options)
+    ☐ Write the project name
+    ☐ Write and order the tasks
+    ☐ Select the current task
+    ☐ chose if dynamic or static percent (in progress bar)
+    ☐ Customize progress bar

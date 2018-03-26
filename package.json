@@ -1,0 +1,9 @@
+{
+  "name": "stream-project-manage",
+  "version": "0.1.0",
+  "description": "Manage stream project dynamically",
+  "main": "index.js",
+  "repository": "https://github.com/orblazer/StreamProjectManage.git",
+  "author": "orblazer <orblazer@relonar.fr>",
+  "license": "MIT"
+}
